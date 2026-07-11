@@ -202,7 +202,7 @@
             listBox4.ItemHeight = 17;
             listBox4.Location = new Point(417, 446);
             listBox4.Name = "listBox4";
-            listBox4.Size = new Size(63, 21);
+            listBox4.Size = new Size(84, 21);
             listBox4.TabIndex = 14;
             // 
             // checkBox2
@@ -219,7 +219,7 @@
             // 
             textBox4.Location = new Point(427, 477);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(62, 23);
+            textBox4.Size = new Size(74, 23);
             textBox4.TabIndex = 16;
             // 
             // checkBox3
