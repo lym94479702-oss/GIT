@@ -219,7 +219,7 @@
             // 
             textBox4.Location = new Point(427, 477);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(74, 23);
+            textBox4.Size = new Size(122, 23);
             textBox4.TabIndex = 16;
             // 
             // checkBox3
