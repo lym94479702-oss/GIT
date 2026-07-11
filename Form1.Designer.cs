@@ -47,6 +47,7 @@
             listBox4 = new ListBox();
             checkBox2 = new CheckBox();
             textBox4 = new TextBox();
+            checkBox3 = new CheckBox();
             tabControl1.SuspendLayout();
             SuspendLayout();
             // 
@@ -81,15 +82,15 @@
             // 
             listBox2.FormattingEnabled = true;
             listBox2.ItemHeight = 17;
-            listBox2.Location = new Point(225, 9);
+            listBox2.Location = new Point(220, 9);
             listBox2.Name = "listBox2";
-            listBox2.Size = new Size(60, 21);
+            listBox2.Size = new Size(65, 21);
             listBox2.TabIndex = 3;
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(297, 37);
+            checkBox1.Location = new Point(306, 8);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(75, 21);
             checkBox1.TabIndex = 4;
@@ -137,7 +138,7 @@
             tabPage2.Location = new Point(4, 26);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(345, 382);
+            tabPage2.Size = new Size(246, 382);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
@@ -221,11 +222,22 @@
             textBox4.Size = new Size(62, 23);
             textBox4.TabIndex = 16;
             // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(305, 36);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(63, 21);
+            checkBox3.TabIndex = 17;
+            checkBox3.Text = "时间戳";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(750, 552);
+            Controls.Add(checkBox3);
             Controls.Add(textBox4);
             Controls.Add(checkBox2);
             Controls.Add(listBox4);
@@ -271,5 +283,6 @@
         private ListBox listBox4;
         private CheckBox checkBox2;
         private TextBox textBox4;
+        private CheckBox checkBox3;
     }
 }
